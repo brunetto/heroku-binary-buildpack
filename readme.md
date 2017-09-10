@@ -9,8 +9,8 @@ $ cd /path/to/folder
 
 Create Heroku app with this buildpack and clone it:
 ```bash
-$ heroku create APP --buildpack https://github.com/ph3nx/heroku-binary-buildpack.git
-$ heroku git:clone APP
+$ heroku create NOME_APP --buildpack https://github.com/ph3nx/heroku-binary-buildpack.git
+$ heroku git:clone --app NOME_APP
 ```
 
 
